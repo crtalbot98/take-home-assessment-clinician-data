@@ -5,7 +5,9 @@ import CreateView from "./components/create-view.js";
 
 function App() {
     return(
-        <CreateView data={clinicians}/>
+        <div className={'dashboard'}>
+            <CreateView data={clinicians}/>
+        </div>
     )
 
 }
