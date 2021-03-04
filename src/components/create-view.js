@@ -14,7 +14,6 @@ function CreateView(props){ //Create views from JSON
         </div>
     ));
 
-    console.log(list);
     return <div className={'view-cont'}>{list}</div>
 }
 
