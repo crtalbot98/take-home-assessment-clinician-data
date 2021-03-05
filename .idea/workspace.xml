@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/create-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/side-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/side-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,6 +68,7 @@
       <updated>1614799748278</updated>
       <workItem from="1614799749451" duration="11380000" />
       <workItem from="1614872255742" duration="295000" />
+      <workItem from="1614908638670" duration="2702000" />
     </task>
     <servers />
   </component>
@@ -81,5 +84,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614800006310" />
+    <state x="245" y="455" key="FileChooserDialogImpl" timestamp="1614885737235">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="245" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1614885737235" />
   </component>
 </project>

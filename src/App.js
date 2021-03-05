@@ -5,15 +5,16 @@ import CreateView from "./components/create-view.js";
 import SideBar from "./components/side-bar.js";
 
 function App() {
+    const [json, setJson] = React.useState(clinicians);
+
     return(
         <React.Fragment>
-            <SideBar/>
+            <SideBar json={json} setJson={setJson}/>
             <div className={'dashboard'}>
-                <CreateView data={clinicians}/>
+                <CreateView json={json}/>
             </div>
         </React.Fragment>
     )
-
 }
 
 export default App;

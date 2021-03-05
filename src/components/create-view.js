@@ -2,11 +2,9 @@ import React from 'react';
 
 function CreateView(props){ //Create views from JSON
 
-    const json = props.data;
+    if(!props.json.success) return <p>Please try again...</p>;
 
-    if(!json.success) return <p>Please try again...</p>;
-
-    const list = json.data.result.map((data) => (
+    const list = props.json.data.result.map((data) => (
         <div key={data.id} className={'view-sect'}>
             {Object.entries(data).map(([k, v]) => (
                 <p>{k} <span>{checkIfExists(v)}</span></p>
@@ -18,8 +16,8 @@ function CreateView(props){ //Create views from JSON
 }
 
 function checkIfExists(value){
-    if(value === '') return `Error: missing data (empty)`;
-    else if(!value || value === "undefined") return `Error: missing data (${value})`;
+    if(value === '') return `missing data (empty)`;
+    else if(!value || value === "undefined") return `missing data (${value})`;
     else return value;
 }
 
