@@ -7,7 +7,7 @@ function CreateView(props){ //Create views from JSON
     const list = props.json.data.result.map((data) => (
         <div key={data.id} className={'view-sect'}>
             {Object.entries(data).map(([k, v]) => (
-                <p>{k} <span>{checkIfExists(v)}</span></p>
+                <p key={k}>{k} <span>{checkIfExists(v)}</span></p>
             ))}
         </div>
     ));

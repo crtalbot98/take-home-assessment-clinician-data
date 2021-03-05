@@ -44,10 +44,10 @@ function InputData(props){
     );
 
     return(
-        <div>
+        <React.Fragment>
             {inputList}
             <button onClick={merge}>Input</button>
-        </div>
+        </React.Fragment>
     )
 }
 
