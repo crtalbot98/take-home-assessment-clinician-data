@@ -4,9 +4,13 @@
     <list default="true" id="b85bfb6d-5a88-4295-a9d4-15c67e569415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/create-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/input-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/side-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/side-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sort-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sort-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sort-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/sort-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ezoic_takeHome" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,7 +72,12 @@
       <workItem from="1614799749451" duration="11380000" />
       <workItem from="1614872255742" duration="295000" />
       <workItem from="1614908638670" duration="2908000" />
-      <workItem from="1614964487438" duration="7758000" />
+      <workItem from="1614964487438" duration="8059000" />
+      <workItem from="1614977967279" duration="3823000" />
+      <workItem from="1615053488342" duration="25468000" />
+      <workItem from="1615087706199" duration="2777000" />
+      <workItem from="1615136702000" duration="7681000" />
+      <workItem from="1615159577677" duration="1053000" />
     </task>
     <servers />
   </component>
@@ -84,9 +93,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614800006310" />
-    <state x="245" y="455" key="FileChooserDialogImpl" timestamp="1614885737235">
+    <state x="245" y="455" key="FileChooserDialogImpl" timestamp="1615071736664">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="245" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1614885737235" />
+    <state x="245" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615071736664" />
+    <state x="202" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1615064679655">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="202" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615064679655" />
   </component>
 </project>

@@ -1,24 +1,16 @@
 import React from 'react';
+import {DataContext} from "../data/data-context";
+import View from "./view";
+import {checkIfSearched} from "../data/sort-types";
 
-function CreateView(props){ //Create views from JSON
+function CreateView(){ //Create views from context
 
-    if(!props.json.success) return <p>Please try again...</p>;
+    const {jsonData, searchedJson} = React.useContext(DataContext);
 
-    const list = props.json.data.result.map((data) => (
-        <div key={data.id} className={'view-sect'}>
-            {Object.entries(data).map(([k, v]) => (
-                <p key={k}>{k} <span>{checkIfExists(v)}</span></p>
-            ))}
-        </div>
-    ));
+    if(!jsonData.json.success) return <p>Please try again...</p>;
 
-    return <div className={'view-cont'}>{list}</div>
-}
-
-function checkIfExists(value){
-    if(value === '') return `missing data (empty)`;
-    else if(!value || value === "undefined") return `missing data (${value})`;
-    else return value;
+    if(checkIfSearched(searchedJson.searched)) return <View json={searchedJson.searched}/>;
+    else return <View json={jsonData.json}/>
 }
 
 export default CreateView;
