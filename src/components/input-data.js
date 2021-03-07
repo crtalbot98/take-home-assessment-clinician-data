@@ -1,7 +1,9 @@
 import React from "react";
+import {DataContext} from "../data/data-context";
 
-function InputData(props){
+function InputData(){
 
+    const {jsonData, searchJsonData} = React.useContext(DataContext);
     const inputObj =  {
         "id": null,
         "created_date": null,
@@ -28,25 +30,39 @@ function InputData(props){
         "clinician_credential_text": null
     };
     const [input, setInput] = React.useState(filterObjs(inputObj));
+    const [error, setError] = React.useState([]);
 
-    const merge = () => {
-        let jsonCopy = {...props.json};
-        jsonCopy.data.result.push({...inputObj, ...input});
-        props.setJson(jsonCopy);
+    const mergeInput = () => {
+        inputObj.id = jsonData.json.data.result[jsonData.json.data.result.length-1].id + 1;
+        jsonData.addJson({...inputObj, ...input});
         setInput(filterObjs(inputObj));
+    };
+
+    const validateInput = () => {
+        let errs = [];
+        for(let key in input){
+            if(input.hasOwnProperty(key) && !input[key] && key !== 'address2') errs.push(key)
+        }
+
+        if(errs.length < 1){
+            mergeInput();
+            setError([])
+        }
+        else setError(errs)
     };
 
     const inputList = Object.entries(input).map(([k,v]) =>
         <div key={k}>
             <label htmlFor={k}>{k}</label>
-            <input type={"text"} id={k} value={input[k]} onChange={(e) => {setInput({...input, [k]: e.target.value})}}/>
+            <input type={"text"} id={k} value={input[k]} required onChange={(e) => {setInput({...input, [k]: e.target.value})}}/>
         </div>
     );
 
     return(
         <React.Fragment>
+            {error.length > 0 ? <p>{`${error.join(', ')} are required`}</p> : <br/>}
             {inputList}
-            <button onClick={merge}>Input</button>
+            <button onClick={validateInput}>Input</button>
         </React.Fragment>
     )
 }
