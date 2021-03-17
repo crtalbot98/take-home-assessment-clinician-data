@@ -3,7 +3,7 @@ import clinicians from './clinicians.json';
 
 export const DataContext = React.createContext({
     jsonData: clinicians,
-    searchedJson: {},
+    searchedJson: clinicians,
     addJson: () => {},
     updateJson: () => {},
     updateSearchedJson: () => {}
@@ -32,7 +32,7 @@ export const DataProvider = (props) => {
     });
 
     const [searchedJson, setSearchedJson] = React.useState({
-        searched: {},
+        searched: clinicians,
         updateSearchedJson: updateSearchedJson
     });
 

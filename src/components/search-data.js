@@ -19,8 +19,10 @@ function SearchData(){
         });
 
         if(jsonCopy.data.result.length < 1) setMessage('No matches');
+        else setMessage(null);
 
-        searchedJson.updateSearchedJson(jsonCopy)
+        if(e.target.value.length < 1) searchedJson.updateSearchedJson(jsonData.json);
+        else searchedJson.updateSearchedJson(jsonCopy)
     };
 
     return(

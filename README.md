@@ -5,5 +5,3 @@
 * View Clinicians
 * Add new clinician
 * Sort and search on last name to find clinician
-
-Created by Chandler Talbot

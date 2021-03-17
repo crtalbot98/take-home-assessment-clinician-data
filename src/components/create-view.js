@@ -9,8 +9,7 @@ function CreateView(){ //Create views from context
 
     if(!jsonData.json.success) return <p>Please try again...</p>;
 
-    if(checkIfSearched(searchedJson.searched)) return <View json={searchedJson.searched}/>;
-    else return <View json={jsonData.json}/>
+    return <View json={searchedJson.searched}/>
 }
 
 export default CreateView;

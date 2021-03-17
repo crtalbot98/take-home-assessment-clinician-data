@@ -47,7 +47,10 @@ function SortData(){
 }
 
 function checkSort(value, context){
-    let jsonCopy = {...context.jsonData.json};
+    let jsonCopy;
+
+    if(checkIfSearched(context.searchedJson.searched)) jsonCopy = {...context.searchedJson.searched};
+    else jsonCopy = {...context.jsonData.json};
 
     if(value === 'Asc'){
         jsonCopy.data.result = SortByLastName(jsonCopy.data.result);
