@@ -15,7 +15,8 @@ function SearchData(){
         else data = jsonData.json.data.result;
 
         jsonCopy.data.result = data.filter(itm => {
-            return itm.last_name.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1
+            const i = itm.last_name.toLowerCase().indexOf(e.target.value.toLowerCase());
+            return i === 0
         });
 
         if(jsonCopy.data.result.length < 1) setMessage('No matches');

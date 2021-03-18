@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import CreateView from "./components/create-view.js";
 import SideBar from "./components/side-bar.js";
-import {DataProvider, SearchProvider} from "./data/data-context.js"
+import {DataProvider} from "./data/data-context.js"
 
 function App() {
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import {DataContext} from "../data/data-context";
 import View from "./view";
-import {checkIfSearched} from "../data/sort-types";
 
 function CreateView(){ //Create views from context
 

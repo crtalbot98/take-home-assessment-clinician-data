@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b85bfb6d-5a88-4295-a9d4-15c67e569415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/create-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sort-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sort-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data-context.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ezoic_takeHome" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +74,8 @@
       <workItem from="1615136702000" duration="7681000" />
       <workItem from="1615159577677" duration="1591000" />
       <workItem from="1615765828770" duration="13000" />
-      <workItem from="1616004781161" duration="7052000" />
+      <workItem from="1616004781161" duration="7440000" />
+      <workItem from="1616032962108" duration="1396000" />
     </task>
     <servers />
   </component>
@@ -92,10 +91,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614800006310" />
-    <state x="245" y="455" key="FileChooserDialogImpl" timestamp="1615765840300">
+    <state x="245" y="455" key="FileChooserDialogImpl" timestamp="1616034153722">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="245" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615765840300" />
+    <state x="245" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1616034153722" />
     <state x="102" y="100" width="787" height="1200" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1616010446803">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
