@@ -1,6 +1,6 @@
-## Simbex Clinician Test
+## Clinician Data
 
-## Take home test for Simbex. The following functionality is included:
+## Short test for listing clinician data including:
 
 * View Clinicians
 * Add new clinician
